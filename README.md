@@ -17,6 +17,11 @@ Unfortunately I am presently unable to post the finished Motherboard.
 Special Thanks to https://github.com/binexec for creating the design document.
 
 
+Running the code requires specifying a file to compile.
+compiler [filename]
+
+or if the user wishes to name the outputfile they must include -o and the new filename
+compiler [filename] -o [outputname]
 
 --------------------------------------------------------------------------------
 

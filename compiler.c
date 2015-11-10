@@ -26,7 +26,11 @@ int main( int argc, char *argv[] )
 
 	if ( argc == 1 )
 	{
-		printf( "user needs to specify file to compile\n" );
+		printf( "\nuser needs to specify file to compile\n\n"
+			"ie. compiler [fileName]\n\n"
+			"or if the user wishes to name the outputfile they must\n"
+			"include -o and the new filename.\n\n"
+			"ie. compiler [fileName] -o [outputName]\n");
 		free(lineToWrite);
 		return -1;
 	}
